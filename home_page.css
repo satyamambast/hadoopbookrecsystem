@@ -1,0 +1,1058 @@
+/*
+	@name home_page
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_home_page_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	overflow:hidden;
+}
+
+#_bg__home_page_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,255);
+	overflow: hidden;
+}
+
+
+#library {
+	top: 5rem;
+	left: 5rem;
+	width: 70rem;
+	height: 50rem;
+}
+
+
+#green_linear_color {
+	opacity:0.80000001192093;
+	top: 463px;
+	left: -20rem;
+	width: 70rem;
+	height: 60rem;
+	-ms-border-radius: 800.5px / 700px;
+	-o-border-radius: 800.5px / 700px;
+	-moz-border-radius: 800.5px / 705px;
+	-webkit-border-radius: 800.5px / 705px;
+	border-radius: 800.5px / 700px;
+	
+	/*-ms-transform:rotate(-1.5deg);
+	-o-transform:rotate(-1.9999999065344deg);
+	-webkit-transform:rotate(-1.9999999065344deg);
+	-moz-transform:rotate(-1.9999999065344deg);
+	transform:rotate(-1.9999999065344deg);*/
+	border: 1px solid #707070;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient( rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -o-linear-gradient(rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -moz-linear-gradient(rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -ms-linear-gradient(rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: linear-gradient( rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+}
+
+
+#revelio {
+	top: 550px;
+	left: 100px;
+	width: 500px;
+	height: 358px;
+	font-family: Broadway;
+	font-size: 10rem;
+	font-weight: 700;
+	text-align: left;
+	line-height: 200px;
+	color:#ffffff;
+}
+
+
+#discover_your_favorite_book {
+	top: 740px;
+	left: 150px;
+	width: 741px;
+	height: 73px;
+	font-family: Bahnschrift;
+	font-size: 3rem;
+	text-align: left;
+	color:#000000;
+}
+
+#navigation_bar {
+	top: 4rem;
+	left: 4rem;
+	width: 500px;
+	height: 106px;
+}
+
+#navigation_bar_rectangle {
+	opacity:0.80000001192093;
+	top: 1rem;
+	left: 1rem;
+	width: 70rem;
+	height: 5rem;
+	background:rgba(255,255,255,255);
+}
+
+#navigation_tabs {
+	top: 28px;
+	left: 10rem;
+	width: 450px;
+	height: 50px;
+}
+
+#search {
+	top: 0.2rem;
+	left: 37rem;
+	width: 50px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 45px;
+	text-align: left;
+	color:#000000;
+}
+
+#search a{
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+}
+
+#__ek1 {
+	top: -0.3rem;
+	left: 6rem;
+	width: 50px;
+	height: 20px;
+}
+
+#about_us {
+	top: 0.5rem;
+	left: 42rem;
+	width: 207px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 45px;
+	text-align: left;
+	color:#000000 !important;
+	text-decoration: none;
+}
+
+#about_us a{
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+}
+
+#seperator {
+	top: 2.5rem;
+	left: 56rem;
+	width: 3px;
+	height: 35px;
+}
+
+#page_search_page_1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	overflow:hidden;
+}
+
+#_bg__search_page_1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,255);
+}
+
+
+#library_ek1 {
+	top: 5rem;
+	left: 6rem;
+	width: 70rem;
+	height: 50rem;
+}
+
+#navigation_bar_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 20rem;
+	height: 10rem;
+	z-index: 1;
+}
+
+#navigation_bar_rectangle_ek1 {
+	opacity:0.8;
+	top: 0px;
+	left: 0px;
+	width: 80rem;
+	height: 9rem;
+	background:rgba(255,255,255,255);
+}
+
+#navigation_tabs_ek1 {
+	top: 4rem;
+	left: 20rem;
+	width: 70rem;
+	height: 7rem;
+	overflow:hidden;
+}
+#__ek2 {
+	top: 2rem;
+	left: 6rem;
+	width: 100px;
+	height: 50px;
+}
+
+#__ek2 a{
+	text-decoration: none;
+	color: black;
+	font-size: 42px;
+}
+
+#home {
+	top: -0.7rem;
+	left: 28rem;
+	width: 50px;
+	height: 30px;
+	font-family: Bahnschrift;
+	font-size: 45px;
+	text-align: left;
+	color:#000000;
+	z-index: 1;
+}
+
+#__ek3 {
+	top: 0px;
+	left: 227px;
+	width: 202px;
+	height: 50px;
+}
+
+#__ek3 a{
+	text-decoration: none;
+	color: black;
+	font-size: 43px;
+}
+
+#about_us_ek1 {
+	top: 1.3rem;
+	left: 29rem;
+	width: 207px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 43px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#seperator_ek1 {
+	top: 5.9rem;
+	left: 62rem;
+	width: 3px;
+	height: 35px;
+}
+
+
+#revelio_ek1 {
+	top: 126px;
+	left: 150px;
+	width: 1171px;
+	height: 358px;
+	overflow: hidden;
+	font-family: Broadway;
+	font-size: 160px;
+	text-align: left;
+	line-height: 200px;
+	color:#ffffff;
+}
+
+
+#green_background {
+	opacity:0.80000001192093;
+	top: 361px;
+	left: 204px;
+	width: 900px;
+	height: 400px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -o-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -moz-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -ms-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+}
+
+
+#search_bar {
+	top: 494px;
+	left: 250px;
+	width: 750px;
+	height: 60px;
+	-ms-border-radius: 46px;
+	-o-border-radius: 46px;
+	-moz-border-radius: 46px;
+	-webkit-border-radius: 46px;
+	border-radius: 46px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+#go{
+	top: 510px;
+	left: 1020px;
+	width: 50px;
+	height: 20px;
+}
+
+/*#ellipse_2 {
+	top: 0px;
+	left: 0px;
+	width: 70px;
+	height: 60px;
+	-ms-border-radius: 46.5px / 41px;
+	-o-border-radius: 46.5px / 41px;
+	-moz-border-radius: 46.5px / 41px;
+	-webkit-border-radius: 46.5px / 41px;
+	border-radius: 46.5px / 41px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_3 {
+	top: 5px;
+	left: 17px;
+	width: 45px;
+	height: 50px;
+}*/
+
+
+#line_1 {
+	top: 505px;
+	left: 300px;
+	width: 2px;
+	height: 45px;
+	cursor: pointer;
+}
+
+
+#type_the_genre_or_author_of_the_books_you_like_to_read_ {
+	top: 429px;
+	left: 220px;
+	width: 902px;
+	height: 113px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 35px;
+	text-align: left;
+	line-height: 40px;
+	color:#ffffff;
+}
+
+#page_search_page_2_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	overflow:hidden;
+}
+
+#_bg__search_page_2_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,255);
+}
+
+
+#library_ek2 {
+	top: -100px;
+	left: 0px;
+	width: 1920px;
+	height: 1280.5px;
+}
+
+#navigation_bar_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 106px;
+}
+
+#navigation_bar_rectangle_ek2 {
+	opacity:0.80000001192093;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 106px;
+	background:rgba(255,255,255,255);
+}
+
+#navigation_tabs_ek2 {
+	top: 28px;
+	left: 1425px;
+	width: 437px;
+	height: 50px;
+	overflow:hidden;
+}
+#__ek4 {
+	top: 0px;
+	left: 0px;
+	width: 131px;
+	height: 50px;
+}
+
+#home_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 136px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+#__ek5 {
+	top: 0px;
+	left: 227px;
+	width: 202px;
+	height: 50px;
+}
+
+#about_us_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 207px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#seperator_ek2 {
+	top: 29px;
+	left: 1604px;
+	width: 7px;
+	height: 50px;
+}
+
+
+#revelio_ek2 {
+	top: 126px;
+	left: 76px;
+	width: 1171px;
+	height: 358px;
+	overflow: hidden;
+	font-family: Broadway;
+	font-size: 200px;
+	text-align: left;
+	line-height: 200px;
+	color:#ffffff;
+}
+
+
+#green_background_ek1 {
+	opacity:0.80000001192093;
+	top: 361px;
+	left: 204px;
+	width: 1513px;
+	height: 719px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -o-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -moz-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -ms-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+}
+
+
+#search_bar_ek1 {
+	top: 494px;
+	left: 318px;
+	width: 1099px;
+	height: 90px;
+	-ms-border-radius: 46px;
+	-o-border-radius: 46px;
+	-moz-border-radius: 46px;
+	-webkit-border-radius: 46px;
+	border-radius: 46px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+#go_button_ek1 {
+	top: 499px;
+	left: 1460px;
+	width: 93px;
+	height: 82px;
+}
+
+#ellipse_2_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 91px;
+	height: 80px;
+	-ms-border-radius: 46.5px / 41px;
+	-o-border-radius: 46.5px / 41px;
+	-moz-border-radius: 46.5px / 41px;
+	-webkit-border-radius: 46.5px / 41px;
+	border-radius: 46.5px / 41px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_3_ek1 {
+	top: 5px;
+	left: 17px;
+	width: 59px;
+	height: 73px;
+}
+
+
+#line_1_ek1 {
+	top: 505px;
+	left: 373px;
+	width: 2px;
+	height: 73px;
+}
+
+
+#type_the_genre_or_author_of_the_books_you_like_to_read__ek1 {
+	top: 429px;
+	left: 345px;
+	width: 919px;
+	height: 113px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 40px;
+	text-align: left;
+	line-height: 40px;
+	color:#ffffff;
+}
+
+#page_show_results_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	overflow:hidden;
+}
+
+#_bg__show_results_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,255);
+}
+
+
+#library_ek3 {
+	top: 4rem;
+	left: 4rem;
+	width: 70rem;
+	height: 60rem;
+}
+
+#navigation_bar_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 70rem;
+	height: 8rem;
+}
+
+#navigation_bar_rectangle_ek3 {
+	opacity:0.80000001192093;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 8rem;
+	background:rgba(255,255,255,255);
+}
+
+#navigation_tabs_ek3 {
+	top: 4rem;
+	left: 30rem;
+	width: 700px;
+	height: 50px;
+	overflow:hidden;
+}
+#__ek6 {
+	top: 0px;
+	left: 24rem;
+	width: 131px;
+	height: 50px;
+}
+
+#home_ek2 {
+	top: 0.4rem; 	
+	left: 0px;
+	width: 136px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 43px;
+	text-align: left;
+	color:#000000;
+}
+
+#home_ek2 a{
+	text-decoration: none;
+	color: black;
+}
+
+#__ek7 {
+	top: 0px;
+	left: 34rem;
+	width: 158px;
+	height: 50px;
+}
+
+#search_ek1 {
+	top: 0.4rem;
+	left: 0.1rem;
+	width: 163px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 43px;
+	text-align: left;
+	color:#000000;
+}
+
+#search_ek1 a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#seperator_ek3 {
+	top: 4.9rem;
+	left: 62.3rem;
+	width: 3px;
+	height: 35px;
+}
+
+
+#revelio_ek3 {
+	top: 126px;
+	left: 76px;
+	width: 1171px;
+	height: 358px;
+	overflow: hidden;
+	font-family: Broadway;
+	font-size: 200px;
+	text-align: left;
+	line-height: 200px;
+	color:#ffffff;
+}
+
+
+#green_background_ek2 {
+	opacity:0.8;
+	top: 350px;
+	left: 204px;
+	width: 900px;
+	height: 660px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -o-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -moz-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -ms-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+}
+
+
+#here_are_your_recommendations_ {
+	top: 370px;
+	left: 300px;
+	width: 902px;
+	height: 113px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 40px;
+	text-align: left;
+	line-height: 40px;
+	color:#ffffff;
+}
+
+#result {
+	top: 450px;
+	left: 243px;
+	width: 1435px;
+	height: 590px;
+	overflow:hidden;
+}
+#result_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1435px;
+	height: 148px;
+}
+
+#rectangle_5 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 0px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_4 {
+	top: 2px;
+	left: 45px;
+	width: 115px;
+	height: 110px;
+}
+
+
+#book_name___author_name_rating__5_5 {
+	top: 34px;
+	left: 201px;
+	width: 1177px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 30px;
+	text-align: left;
+	line-height: 30px;
+	color:#ffffff;
+}
+
+#result_ek2 {
+	top: 146px;
+	left: 0px;
+	width: 1435px;
+	height: 148px;
+}
+
+#rectangle_5_ek1 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 1433px;
+	height: 100px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_4_ek1 {
+	top: 2px;
+	left: 45px;
+	width: 115px;
+	height: 110px;
+}
+
+
+#book_name___author_name_rating__5_5_ek1 {
+	top: 34px;
+	left: 201px;
+	width: 1177px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 30px;
+	text-align: left;
+	line-height: 30px;
+	color:#ffffff;
+}
+
+#result_ek3 {
+	top: 292px;
+	left: 0px;
+	width: 1435px;
+	height: 148px;
+}
+
+#rectangle_5_ek2 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 1433px;
+	height: 146px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_4_ek2 {
+	top: 2px;
+	left: 45px;
+	width: 115px;
+	height: 110px;
+}
+
+
+#book_name___author_name_rating__5_5_ek2 {
+	top: 34px;
+	left: 201px;
+	width: 1177px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 30px;
+	text-align: left;
+	line-height: 30px;
+	color:#ffffff;
+}
+
+#result_ek4 {
+	top: 438px;
+	left: 0px;
+	width: 1435px;
+	height: 148px;
+}
+
+#rectangle_5_ek3 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 1433px;
+	height: 146px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_4_ek3 {
+	top: 1px;
+	left: 45px;
+	width: 115px;
+	height: 110px;
+}
+
+
+#book_name___author_name_rating__5_5_ek3 {
+	top: 34px;
+	left: 201px;
+	width: 1177px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 30px;
+	text-align: left;
+	line-height: 30px;
+	color:#ffffff;
+}
+
+#result_ek5 {
+	top: 584px;
+	left: 0px;
+	width: 1435px;
+	height: 148px;
+}
+
+#rectangle_5_ek4 {
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 1433px;
+	height: 146px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_4_ek4 {
+	top: 13px;
+	left: 45px;
+	width: 115px;
+	height: 122px;
+}
+
+
+#book_name___author_name_rating__5_5_ek4 {
+	top: 34px;
+	left: 201px;
+	width: 1177px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 30px;
+	text-align: left;
+	line-height: 30px;
+	color:#ffffff;
+}
+
+#page_web_1920___1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	overflow:hidden;
+}
+
+#_bg__web_1920___1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,255);
+}
+
+
+#library_ek4 {
+	top: 4rem;
+	left: 4rem;
+	width: 70rem;
+	height: 60rem;
+}
+
+#navigation_bar_ek4 {
+	top: 4rem;
+	left: 4rem;
+	width: 60rem;
+	height: 20rem;
+}
+
+#navigation_bar_rectangle_ek4 {
+	opacity:0.8;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 70px;
+	background:rgba(255,255,255,255);
+}
+
+#navigation_tabs_ek4 {
+	top: 10px;
+	left: 35rem;
+	width: 550px;
+	height: 50px;
+	overflow:hidden;
+}
+#__ek8 {
+	top: 0px;
+	left: 0px;
+	width: 131px;
+	height: 50px;
+}
+
+#home_ek3 {
+	top: 0px;
+	left: 16rem;
+	width: 136px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 43px;
+	text-align: left;
+	color:#000000;
+}
+
+#__ek9 {
+	top: 0px;
+	left: 227px;
+	width: 158px;
+	height: 50px;
+}
+
+#home_ek3 a{
+	text-decoration: none;
+	color: black;
+}
+
+#search_ek2 {
+	top: 0.6rem;
+	left: 47rem;
+	width: 163px;
+	height: 60px;
+	font-family: Bahnschrift;
+	font-size: 43px;
+	text-align: left;
+	color:#000000;
+}
+
+#search_ek2 a{
+	text-decoration: none;
+	color: black;
+}
+
+#seperator_ek4 {
+	top: 5rem;
+	left: 63.5rem;
+	width: 3px;
+	height: 35px;
+}
+
+
+#revelio_ek4 {
+	top: 7rem;
+	left: 9rem;
+	width: 40rem;
+	height: 10rem;
+	overflow: hidden;
+	font-family: Broadway;
+	font-size: 150px;
+	text-align: left;
+	line-height: 200px;
+	color:#ffffff;
+}
+
+
+#green_background_ek3 {
+	opacity:0.8;
+	top: 23rem;
+	left: 150px;
+	width: 60rem;
+	height: 40rem;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -o-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -moz-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: -ms-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+	background: linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
+}
+
+
+#about_us_ek3 {
+	top: 4rem;
+	left: 70px;
+	width: 694px;
+	height: 127px;
+	overflow: hidden;
+	font-family: Comic Sans MS;
+	font-size: 70px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 60px;
+	color:#ffffff;
+}
+
+
+#para {
+	top: 10rem;
+	left: 70px;
+	width: 850px;
+	height: 400px;
+	overflow: hidden;
+	font-family: Calibri;
+	font-size: 30px;
+	text-align: left;
+	line-height: 30px;
+	color:#ffffff;
+}
+
+
+
+/* Add your custom CSS here */
