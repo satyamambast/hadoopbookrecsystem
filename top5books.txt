@@ -1,0 +1,5 @@
+sherlock holmes. illustrated:sep:doyle, arthur conan sir:sep:6.887569175279403	
+nightmares and dreamscapes:sep:stephen king:sep:0.7305994091674343	
+the black book:sep:ian rankin:sep:0.588794176290329	
+dark of the woods:sep:dean r. koontz:sep:0.48358822462673035	
+the oxford dictionary of modern quotations:sep:tony augarde:sep:0.35231943628890194	

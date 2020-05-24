@@ -23,4 +23,4 @@ for i in inp:
                     break
             
 for i in most_relevant[::-1]:
-    print(i)
+    print(i[0]+":sep:"+str(i[1]))
