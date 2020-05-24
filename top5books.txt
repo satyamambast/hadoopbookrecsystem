@@ -1,5 +1,5 @@
-sherlock holmes. illustrated:sep:doyle, arthur conan sir:sep:6.887569175279403	
-nightmares and dreamscapes:sep:stephen king:sep:0.7305994091674343	
-the black book:sep:ian rankin:sep:0.588794176290329	
-dark of the woods:sep:dean r. koontz:sep:0.48358822462673035	
-the oxford dictionary of modern quotations:sep:tony augarde:sep:0.35231943628890194	
+the prince:sep:niccolò machiavelli; peter e. bondanella:sep:0.07724393635099645	
+a short history of the world.:sep:h. g. wells:sep:0.07078977795606314	
+the tempest:sep:william shakespeare:sep:0.031170126550713797	
+the divine comedy:sep:dante alighieri:sep:0.025862514870946055	
+deadeye dick:sep:kurt vonnegut:sep:0.021767522855899	

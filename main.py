@@ -1,7 +1,7 @@
 from flask import Flask, render_template,request
 import os
-# import nltk,string
-# stemmer = nltk.stem.SnowballStemmer("english")
+import nltk,string
+stemmer = nltk.stem.SnowballStemmer("english")
 app = Flask(__name__)
 
 @app.route("/")
@@ -21,10 +21,10 @@ def result():
    if request.method == 'POST':
         result = request.form
         words=result["Name"].split(",")
-        # words=[stemmer.stem(words.lower().translate(string.punctuation)) for words in words]
-        # words=[words.strip() for words in words]
-        # cmd="./runexperiment.sh "+",".join(words)
-        # os.system(cmd)
+        words=[stemmer.stem(words.lower().translate(string.punctuation)) for words in words]
+        words=[words.strip() for words in words]
+        cmd="./runexperiment.sh "+",".join(words)
+        os.system(cmd)
         with open("top5books.txt","r") as t5:
             revelist=t5.readlines()
         revelio={}
