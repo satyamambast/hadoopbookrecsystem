@@ -20,7 +20,7 @@
 		<title>home_page</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="" >
-		<link rel="StyleSheet" href="home_page.css" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/home_page.css') }}">
 		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js"></script>
 		<!-- Add your custom HEAD content here -->
 
@@ -29,7 +29,7 @@
 		<div id="content-container" >
 			<div id="page_home_page_ek1"  >
 				<div id="_bg__home_page_ek2"  ></div>
-				<img src="skins/library.png" id="library" />
+				<img src="{{url_for('static', filename='skins/library.png')}}" id="library" />
 				<div id="green_linear_color"  ></div>
 				<div id="revelio" >
 					Revelio
@@ -43,18 +43,18 @@
 
 					<div id="navigation_tabs"  >
 							<div id="search" >
-								<a href="./search_page_1.html">Search</a>
+								<a href="{{ url_for('search') }}">Search</a>
 							</div>
 
 						<div id="__ek1"  >
 							<div id="about_us" >
-								<a href="./web_1920___1.html">About Us</a>
+								<a href="{{ url_for('about') }}">About Us</a>
 							</div>
 
 						</div>
 
 					</div>
-					<img src="skins/seperator.png" id="seperator" />
+					<img src="{{url_for('static', filename='skins/seperator.png')}}" id="seperator" />
 
 				</div>
 

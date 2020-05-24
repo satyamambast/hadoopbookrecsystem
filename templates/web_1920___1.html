@@ -20,7 +20,7 @@
 		<title>about_us</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="" >
-		<link rel="StyleSheet" href="home_page.css" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/home_page.css') }}">
 		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js"></script>
 		<!-- Add your custom HEAD content here -->
 
@@ -30,7 +30,7 @@
 
 			<div id="page_web_1920___1_ek1">
 				<div id="_bg__web_1920___1_ek2"></div>
-				<img src="skins/library_ek4.png" id="library_ek4"/>
+				<img src="{{url_for('static', filename='skins/library_ek4.png')}}" id="library_ek4"/>
 
 				<div id="navigation_bar_ek4"  >
 					<div id="navigation_bar_rectangle_ek4"></div>
@@ -38,17 +38,17 @@
 					<div id="navigation_tabs_ek4">
 						<div id="_ek8">
 							<div id="home_ek3">
-								<a href="./home_page.html">Home</a>
+								<a href="{{ url_for('home') }}">Home</a>
 							</div>
 						</div>
 					</div>
 					<div id="__ek9">
 						<div id="search_ek2">
-							<a href="./search_page_1.html">Search</a>
+							<a href="{{ url_for('search') }}">Search</a>
 						</div>
 					</div>
 				</div>
-					<img src="skins/seperator_ek4.png" id="seperator_ek4" />
+					<img src="{{url_for('static', filename='skins/seperator_ek4.png')}}" id="seperator_ek4" />
 				
 
 				<div id="revelio_ek3" >
