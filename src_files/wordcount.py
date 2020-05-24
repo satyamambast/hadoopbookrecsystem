@@ -4,8 +4,14 @@ import string
 import time
 import nltk
 import pickle
-def txttobinary(file):
-    document_text = open(file, 'r')
+import os
+path ='/home/satyam/test_bin/input'
+output='/home/satyam/test_bin/output'
+def txttobinary(book,log_file):
+    document_text = open(os.path.join(path,book), 'r')
+    newname=os.path.join(output,os.path.splitext(book)[0]+'.bin')
+    log_file.write(newname)
+    log_file.write("\n")
     st=time.time()
     frequency = {}
     flag=0
@@ -19,8 +25,8 @@ def txttobinary(file):
             break
         x=x-10
     #print(last)
-    auth_pattern = re.findall(r'author:.*', text_string)[0][7:]
-    title_pattern = re.findall(r'title:.*', text_string)[0][6:]
+    auth_pattern = re.findall(r'author:.*', last)[0][7:]
+    title_pattern = re.findall(r'title:.*', last)[0][6:]
     print(auth_pattern,"    ",title_pattern)
 
     stemmer = nltk.stem.SnowballStemmer("english")
@@ -32,7 +38,7 @@ def txttobinary(file):
     frequency['book_title']=auth_pattern
     frequency['book_author']=title_pattern
     frequency['book_total_count']=flag
-    new_document=open("new.bin",'wb+')
+    new_document=open(newname,'wb+')
     pickle.dump(frequency,new_document,protocol=pickle.HIGHEST_PROTOCOL)
     new_document.close()
     print(len(frequency.keys()))
@@ -43,4 +49,8 @@ def txttobinary(file):
     end=time.time()
     print(flag)
     print(end-st)
-txttobinary("test.txt")
+log_file=open(os.path.join(output,"log.txt"),"w+")
+for r, d, f in os.walk(path):
+    for file in f:
+        txttobinary(file,log_file)
+log_file.close()
