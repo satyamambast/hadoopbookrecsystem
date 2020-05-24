@@ -59,19 +59,23 @@
 				<div id="revelio_ek1" >
 					Revelio
 				</div>
-				<div id="green_background"  ></div>
-				<div id="search_bar"  ></div>
 
-				<img src="{{url_for('static', filename='skins/line_1.png')}}" id="line_1" />
+
+				<div id="green_background">
+
+					<div id="sub-form" style="top: 9rem; left: 2rem">
+						<form action = "http://localhost:5000/result" method = "POST">
+							<input type = "text" name = "Name" style="border: 1rem solid white; border-radius: 25px; width: 46rem; height: 1.5rem;">
+							<input type = "submit" value = "GO" style="height: 1.5rem; background-color: none !important;">
+						</form>
+					</div>	
+
+				</div>
+
 				<div id="type_the_genre_or_author_of_the_books_you_like_to_read_" >
 					Type the genre or author of the books you like to read 
 				</div>
-
-				<div id="go">
-					<a href="{{ url_for('results') }}">GO</a>
-				</div>
-
-
+			
 			</div>
 
 

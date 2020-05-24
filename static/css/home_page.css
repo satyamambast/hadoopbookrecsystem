@@ -288,7 +288,7 @@ div { position: absolute; }
 	top: 361px;
 	left: 204px;
 	width: 900px;
-	height: 400px;
+	height: 500px;
 	background:rgba(255,255,255,0);
 	background: -webkit-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
 	background: -o-linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
@@ -297,28 +297,11 @@ div { position: absolute; }
 	background: linear-gradient(-155.49002294813deg , rgba(32,163,124,255) 0%, rgba(16,82,62,255) 100%);
 }
 
-
-#search_bar {
-	top: 494px;
-	left: 250px;
-	width: 750px;
-	height: 60px;
-	-ms-border-radius: 46px;
-	-o-border-radius: 46px;
-	-moz-border-radius: 46px;
-	-webkit-border-radius: 46px;
-	border-radius: 46px;
-	border: 1px solid #707070;
-	background:rgba(255,255,255,255);
+#type_the_genre_or_author_of_the_books_you_like_to_read_{
+	position: absolute;
+	color: white;
 }
-
-#go{
-	top: 510px;
-	left: 1020px;
-	width: 50px;
-	height: 20px;
-}
-
+s
 /*#ellipse_2 {
 	top: 0px;
 	left: 0px;
@@ -348,20 +331,6 @@ div { position: absolute; }
 	width: 2px;
 	height: 45px;
 	cursor: pointer;
-}
-
-
-#type_the_genre_or_author_of_the_books_you_like_to_read_ {
-	top: 429px;
-	left: 220px;
-	width: 902px;
-	height: 113px;
-	overflow: hidden;
-	font-family: Calibri;
-	font-size: 35px;
-	text-align: left;
-	line-height: 40px;
-	color:#ffffff;
 }
 
 #page_search_page_2_ek1 {
