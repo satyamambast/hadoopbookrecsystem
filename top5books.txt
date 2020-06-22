@@ -1,5 +1,5 @@
-the prince:sep:niccolò machiavelli; peter e. bondanella:sep:0.07724393635099645	
-a short history of the world.:sep:h. g. wells:sep:0.07078977795606314	
-the tempest:sep:william shakespeare:sep:0.031170126550713797	
-the divine comedy:sep:dante alighieri:sep:0.025862514870946055	
-deadeye dick:sep:kurt vonnegut:sep:0.021767522855899	
+a matter of perspective:sep:edward m. lerner:sep:13.761467889908257	
+excession:sep:iain m. banks:sep:11.735040248278537	
+what a piece of work is man:sep:edward m. lerner:sep:9.357301157350406	
+the face of deception:sep:iris johansen:sep:9.276737370225025	
+dedication:sep:stephen king:sep:9.188479654080766	

@@ -1,6 +1,7 @@
 #!/usr/bin/python3.8
 import pickle
 import sys
+
 # inpfile=open("/home/satyam/hadoopbookrecsystem/src_file/input.txt",'r')
 # word=inpfile.read().split(',')
 word=sys.argv[1].split(",")

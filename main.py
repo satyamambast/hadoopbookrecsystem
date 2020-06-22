@@ -33,8 +33,8 @@ def result():
             revelio["t"+str(i)]=bookrel[0].title()
             revelio["a"+str(i)]=bookrel[1].title()
             revelio["r"+str(i)]=bookrel[2]
-        for i in revelio:
-            print(i,revelio[i])
+        # for i in revelio:
+        #     print(i,revelio[i])
 
 
         #return render_template("result.html",result = result)
